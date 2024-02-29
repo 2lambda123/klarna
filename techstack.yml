@@ -1,0 +1,1399 @@
+repo_name: 2lambda123/klarna
+report_id: ec6e647ed5e08c08822e978045c0daa1
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:15:05+00:00'
+requested_by: frederikvig
+provider: github
+branch: master
+detected_tools_count: 109
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: 4.6.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/EPiServer.Reference.Commerce.Manager.csproj
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/EPiServer.Reference.Commerce.Manager.csproj
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/2lambda123/klarna
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Features/CatalogContent/product.js
+  detection_source: demo/Foundation/src/Foundation/Features/CatalogContent/product.js
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/src/Klarna.Common/Klarna.Common.v3.csproj
+  detection_source: src/Klarna.Common/Klarna.Common.v3.csproj
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/build/SqlScripts/FoundationConfigurationSchema.sql
+  detection_source: demo/Foundation/build/SqlScripts/FoundationConfigurationSchema.sql
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Foundation/src/Foundation/Foundation.csproj
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Foundation/src/Foundation/Foundation.csproj
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Castle Core
+  description: It provides common Castle Project abstractions including logging services
+  website_url: https://github.com/castleproject/Core
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/20916/default_6d17162c9963bc83521ee29cf394f349c95173f3.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Castle Windsor
+  description: A mature Inversion of Control container for .NET
+  website_url: http://www.castleproject.org/projects/windsor/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/2249/default_12b2b039b83152e7b9f24c0f61bfa26142f35614.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/klarna
+  detection_source: Repo Metadata
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Owin
+  description: A standard interface between .NET web servers and web applications
+  website_url: http://owin.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Server Interface
+  image_url: https://img.stackshare.io/service/4967/New_Project__95_.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/src/Klarna.Common/Klarna.Common.v3.csproj
+  detection_source: src/Klarna.Common/Klarna.Common.v3.csproj
+- name: Serilog
+  description: A portable and structured logging framework to record diagnostic logs
+  website_url: http://serilog.net/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/4283/5691010.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Foundation/src/Foundation/Foundation.csproj
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/Klarna.sln
+  detection_source: Klarna.sln
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.69.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.3.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: Episerver
+  description: The only platform that puts Digital Content, Commerce and Marketing
+    in one screen
+  website_url: http://www.episerver.com/
+  version: 12.16.0
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/6962/zgOFNJuD_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 5.15.4
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: structuremap
+  description: How people build software
+  website_url: http://structuremap.github.io/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5875/pBeeJQDQ_normal.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Antlr
+  description: ANother Tool for Language Recognition
+  package_url: https://www.nuget.org/Antlr
+  version: 3.5.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13151/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: FileHelpers
+  description: Open Source library for automatic formatted file read/write operations
+    www.filehelpers.net
+  package_url: https://www.nuget.org/FileHelpers
+  version: 3.5.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15118/default_de14cc37755961a135ea8c3f33dee9e65777b84d.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Foundation/src/Foundation/Foundation.csproj
+- name: FluentAssertions
+  description: A very extensive set of extension methods that allow you to more naturally
+    specify the expected outcome of a TDD or BDD-style unit tests
+  package_url: https://www.nuget.org/FluentAssertions
+  version: 5.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13059/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: Lucene.Net
+  description: Lucene.Net is a full-text search engine library capable of advanced
+    text analysis, indexing, and searching
+  package_url: https://www.nuget.org/Lucene.Net
+  version: 3.0.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13172/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: MSTest.TestFramework
+  description: This is MSTest V2, the evolution of Microsoft's Test Framework
+  package_url: https://www.nuget.org/MSTest.TestFramework
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: Microsoft.AspNet.Identity.Core
+  description: Core interfaces for ASP.NET Identity
+  package_url: https://www.nuget.org/Microsoft.AspNet.Identity.Core
+  version: 2.2.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13002/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.AspNet.Identity.EntityFramework
+  description: ASP.NET Identity providers that use Entity Framework
+  package_url: https://www.nuget.org/Microsoft.AspNet.Identity.EntityFramework
+  version: 2.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13030/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.AspNet.Identity.Owin
+  description: Owin implementation for ASP.NET Identity
+  package_url: https://www.nuget.org/Microsoft.AspNet.Identity.Owin
+  version: 2.2.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13022/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  vulnerabilities:
+  - name: " Microsoft Security Advisory CVE-2023-33170: .NET Security Feature Bypass
+      Vulnerability"
+    cve_id: CVE-2023-33170
+    cve_url: https://github.com/advisories/GHSA-25c8-p796-jg6r
+    detected_date: Jul 12
+    severity: high
+    first_patched: 2.2.4
+- name: Microsoft.AspNet.Mvc
+  description: ASP.NET MVC is a web framework that gives you a powerful, patterns-based
+    way to build dynamic websites and Web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNet.Mvc
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12850/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.AspNet.Providers.Core
+  description: ASP.NET Universal Providers add provider support in ASP.NET 4 for all
+    editions of SQL Server 2005 and later and to SQL Azure
+  package_url: https://www.nuget.org/Microsoft.AspNet.Providers.Core
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14341/default_afb824345d39171426ecba1761288d02cb44b19c.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.AspNet.Razor
+  description: Razor is a markup syntax for adding server-side logic to web pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.Razor
+  version: 3.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12930/default_f8bf1110f8f0beaf5fae35865de7f77ccd1139f0.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.AspNet.Web.Optimization
+  description: ASP.NET Optimization introduces a way to bundle and optimize CSS and
+    JavaScript files
+  package_url: https://www.nuget.org/Microsoft.AspNet.Web.Optimization
+  version: 1.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12966/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.AspNet.WebApi
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12923/default_039376cf26bae25623c106aea6185b89980a1e50.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.AspNet.WebApi.Client
+  description: This package adds support for formatting and content negotiation to
+    System.Net.Http
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Client
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Shared/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Shared/packages.config
+- name: Microsoft.AspNet.WebApi.Core
+  description: This package contains the core runtime assemblies for ASP.NET Web API
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Core
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12879/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: Microsoft.AspNet.WebApi.Owin
+  description: This package allows you to host ASP.NET Web API within an OWIN server
+    and provides access to additional OWIN features
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Owin
+  version: 5.2.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13091/default_a420a6b9076a7e051ae42f91031e323b7fdb478d.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: Microsoft.AspNet.WebApi.WebHost
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.WebHost
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12978/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.AspNet.WebPages
+  description: This package contains core runtime assemblies shared between ASP.NET
+    MVC and ASP.NET Web Pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebPages
+  version: 3.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12947/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.AspNetCore.WebUtilities
+  description: ASP.NET Core utilities, such as for working with forms, multipart messages,
+    and query strings
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.WebUtilities
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13178/default_4c5fe3fa4737a75e9929d1bbae64d5639710e3e4.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: Microsoft.IdentityModel.Protocol.Extensions
+  description: Provides types that provide support for OpenIdConnect protocol
+  package_url: https://www.nuget.org/Microsoft.IdentityModel.Protocol.Extensions
+  version: 1.0.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13545/default_acafa9133bcbebb2b966c9340c23194c2f9bf7bc.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.Owin
+  description: Provides a set of helper types and abstractions for simplifying the
+    creation of OWIN components
+  package_url: https://www.nuget.org/Microsoft.Owin
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12889/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  vulnerabilities:
+  - name: " .NET Denial of Service Vulnerability"
+    cve_id: CVE-2022-29117
+    cve_url: https://github.com/advisories/GHSA-3rq8-h3gj-r5c6
+    detected_date: Aug 31
+    severity: high
+    first_patched: 4.2.2
+  - name: Cookie parsing failure
+    cve_id: CVE-2020-1045
+    cve_url: https://github.com/advisories/GHSA-hxrm-9w7p-39cc
+    detected_date: Jul 8
+    severity: high
+    first_patched: 4.1.1
+- name: Microsoft.Owin.Host.SystemWeb
+  description: OWIN server that enables OWIN-based applications to run on IIS using
+    the ASP.NET request pipeline
+  package_url: https://www.nuget.org/Microsoft.Owin.Host.SystemWeb
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12970/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.Owin.Security
+  description: Common types which are shared by the various authentication middleware
+    components
+  package_url: https://www.nuget.org/Microsoft.Owin.Security
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12922/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.Owin.Security.Cookies
+  description: Middleware that enables an application to use cookie based authentication
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.Cookies
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12999/default_12f7186a6d439da94c192c70c3589768d943782d.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  vulnerabilities:
+  - name: " .NET Denial of Service Vulnerability"
+    cve_id: CVE-2022-29117
+    cve_url: https://github.com/advisories/GHSA-3rq8-h3gj-r5c6
+    detected_date: Aug 31
+    severity: high
+    first_patched: 4.2.2
+- name: Microsoft.Owin.Security.Facebook
+  description: Middleware that enables an application to support Facebook's OAuth
+    2.0 authentication workflow
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.Facebook
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13279/default_58e2e43f71c25c7e8c3e64c2a30ddaf5c821729c.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.Owin.Security.Google
+  description: Contains middlewares to support Google's OAuth 2.0 authentication workflow
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.Google
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13271/default_0e6336285a2ac0713cff413264705f5aa2f348a1.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.Owin.Security.MicrosoftAccount
+  description: Middleware that enables an application to support the Microsoft Account
+    authentication workflow
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.MicrosoftAccount
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13310/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.Owin.Security.OAuth
+  description: Middleware that enables an application to support any standard OAuth
+    2.0 authentication workflow
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.OAuth
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12983/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.Owin.Security.OpenIdConnect
+  description: Middleware that enables an application to use OpenIdConnect for authentication
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.OpenIdConnect
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13651/default_8262e69d511886f07f1af08ca996ce9684bb574b.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.Owin.Security.Twitter
+  description: Middleware that enables an application to support Twitter's OAuth 2.0
+    authentication workflow
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.Twitter
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13305/default_a905ee276a536c55784ed56585a51a44d19b6d5b.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.Tpl.Dataflow
+  description: TPL Dataflow promotes actor/agent-oriented designs through primitives
+    for in-process message passing, dataflow, and pipelining
+  package_url: https://www.nuget.org/Microsoft.Tpl.Dataflow
+  version: 4.5.24
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13226/default_44258eb565a346d4baf5243c0df2a219253fec1a.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.Web.Infrastructure
+  description: This package contains the Microsoft.Web.Infrastructure assembly that
+    lets you dynamically register HTTP modules at run time
+  package_url: https://www.nuget.org/Microsoft.Web.Infrastructure
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12927/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Microsoft.Web.Xdt
+  description: Microsoft Xml Document Transformation
+  package_url: https://www.nuget.org/Microsoft.Web.Xdt
+  version: 2.1.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13198/default_7bf60c4b32af3c8741e8825972e95cdf35308a6a.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: Microsoft.Win32.Primitives
+  description: Provides common types for Win32-based libraries
+  package_url: https://www.nuget.org/Microsoft.Win32.Primitives
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13149/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: NETStandard.Library
+  description: A set of standard .NET APIs that are prescribed to be used and supported
+    together
+  package_url: https://www.nuget.org/NETStandard.Library
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12843/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 11.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: NuGet.Core
+  description: NuGet.Core is the core framework assembly for NuGet that the rest of
+    NuGet builds upon
+  package_url: https://www.nuget.org/NuGet.Core
+  version: 2.7.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13223/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: OctoPack
+  description: Octopus Deploy is an automated deployment tool powered by NuGet
+  package_url: https://www.nuget.org/OctoPack
+  version: 3.6.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15658/default_377113acdd941f50a77fd19dd149f78f636a1f74.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: Serilog.AspNetCore
+  description: Serilog support for ASP.NET Core logging
+  package_url: https://www.nuget.org/Serilog.AspNetCore
+  version: 6.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13194/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Foundation/src/Foundation/Foundation.csproj
+- name: Serilog.Sinks.File
+  description: Write Serilog events to text files in plain or JSON format
+  package_url: https://www.nuget.org/Serilog.Sinks.File
+  version: 5.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13085/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Foundation/src/Foundation/Foundation.csproj
+- name: SharpZipLib
+  description: SharpZipLib
+  package_url: https://www.nuget.org/SharpZipLib
+  version: 0.86.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12991/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  vulnerabilities:
+  - name: Path Traversal in SharpZipLib
+    cve_id: CVE-2021-32840
+    cve_url: https://github.com/advisories/GHSA-m22m-h4rf-pwq3
+    detected_date: Feb 2
+    severity: high
+    first_patched: 1.3.3
+  - name: Improper Limitation of a Pathname to a Restricted Directory in SharpZipLib
+    cve_id: CVE-2018-1002208
+    cve_url: https://github.com/advisories/GHSA-cqj4-m2pc-v9m5
+    detected_date: Jul 1
+    severity: moderate
+    first_patched: 1.0.0-rc1
+- name: System.AppContext
+  description: Provides the System.AppContext class, which allows access to the BaseDirectory
+    property and other application specific data
+  package_url: https://www.nuget.org/System.AppContext
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13144/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.ComponentModel.Annotations
+  description: Provides attributes that are used to define metadata for objects used
+    as data sources
+  package_url: https://www.nuget.org/System.ComponentModel.Annotations
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12862/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: System.Configuration.ConfigurationManager
+  description: Provides types that support using configuration files
+  package_url: https://www.nuget.org/System.Configuration.ConfigurationManager
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12897/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/Foundation.csproj
+  detection_source: demo/Foundation/src/Foundation/Foundation.csproj
+- name: System.Console
+  description: Provides the System.Console class, which represents the standard input,
+    output and error streams for console applications
+  package_url: https://www.nuget.org/System.Console
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12992/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.Data.SqlClient
+  description: Provides the data provider for SQL Server
+  package_url: https://www.nuget.org/System.Data.SqlClient
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12863/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  vulnerabilities:
+  - name: Microsoft.Data.SqlClient and System.Data.SqlClient vulnerable to SQL Data
+      Provider Security Feature Bypass
+    cve_id: CVE-2024-0056
+    cve_url: https://github.com/advisories/GHSA-98g6-xh36-x2p7
+    detected_date: Jan 17
+    severity: high
+    first_patched: 4.8.6
+  - name: ".NET Information Disclosure Vulnerability"
+    cve_id: CVE-2022-41064
+    cve_url: https://github.com/advisories/GHSA-8g2p-5pqh-5jmc
+    detected_date: Nov 9
+    severity: moderate
+    first_patched: 4.8.5
+- name: System.IO.Compression.ZipFile
+  description: Provides classes that support the compression and decompression of
+    streams using file system paths
+  package_url: https://www.nuget.org/System.IO.Compression.ZipFile
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13240/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.IdentityModel.Tokens.Jwt
+  description: Includes types that provide support for creating
+  package_url: https://www.nuget.org/System.IdentityModel.Tokens.Jwt
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12920/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  vulnerabilities:
+  - name: Microsoft Identity Denial of service vulnerability
+    cve_id: CVE-2024-21319
+    cve_url: https://github.com/advisories/GHSA-8g9c-28fc-mcx2
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 5.7.0
+  - name: 'Microsoft Security Advisory CVE-2024-21319: .NET Denial of Service Vulnerability'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-59j7-ghrg-fj52
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 5.7.0
+- name: System.Net.Sockets
+  description: Provides classes such as Socket, TcpClient and UdpClient, which enable
+    developers to send and receive data over the network
+  package_url: https://www.nuget.org/System.Net.Sockets
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13036/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.Reflection.Emit
+  description: Provides classes that allow a compiler or tool to emit metadata and
+    optionally generate a PE file on disk
+  package_url: https://www.nuget.org/System.Reflection.Emit
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12904/default_d99202dafe7e36905074816809b8843282a82f2f.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: System.Reflection.Emit.Lightweight
+  description: Provides the System.Reflection.Emit.DynamicMethod class, which represents
+    a dynamic method that can be compiled, executed, and discarded
+  package_url: https://www.nuget.org/System.Reflection.Emit.Lightweight
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12926/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: System.Runtime.InteropServices.RuntimeInformation
+  description: Provides APIs to query about runtime and OS information
+  package_url: https://www.nuget.org/System.Runtime.InteropServices.RuntimeInformation
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12960/default_cd4457378b2b3dee674f43707df49edfbc5c04e5.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.Security.AccessControl
+  description: Provides base classes that enable managing access and audit control
+    lists on securable objects
+  package_url: https://www.nuget.org/System.Security.AccessControl
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13424/default_28ec91c56002f51d14f4dbb46d11dcb2fb54bb56.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: System.Security.Cryptography.Algorithms
+  description: Provides base types for cryptographic algorithms, including hashing,
+    encryption, and signing operations
+  package_url: https://www.nuget.org/System.Security.Cryptography.Algorithms
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12929/default_039376cf26bae25623c106aea6185b89980a1e50.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.Security.Cryptography.X509Certificates
+  description: Provides types for reading, exporting and verifying Authenticode X.509
+    v3 certificates
+  package_url: https://www.nuget.org/System.Security.Cryptography.X509Certificates
+  version: 4.3.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13009/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.Security.Cryptography.Xml
+  description: Provides classes to support the creation and validation of XML digital
+    signatures
+  package_url: https://www.nuget.org/System.Security.Cryptography.Xml
+  version: 4.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13303/default_4d1c8e39751da3e5e8bf7305f3f45ac90df4be6f.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  vulnerabilities:
+  - name: ".NET Information Disclosure Vulnerability"
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-vh55-786g-wjwj
+    detected_date: Feb 3
+    severity: critical
+    first_patched: 4.7.1
+  - name: ".NET Information Disclosure Vulnerability"
+    cve_id: CVE-2022-34716
+    cve_url: https://github.com/advisories/GHSA-2m65-m22p-9wjw
+    detected_date: Aug 12
+    severity: moderate
+    first_patched: 4.7.1
+- name: System.Security.Permissions
+  description: Provides types supporting Code Access Security
+  package_url: https://www.nuget.org/System.Security.Permissions
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13182/default_7bf60c4b32af3c8741e8825972e95cdf35308a6a.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: System.Security.Principal.Windows
+  description: Provides classes for retrieving the current Windows user and for interacting
+    with Windows users and groups
+  package_url: https://www.nuget.org/System.Security.Principal.Windows
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13048/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: System.Threading.AccessControl
+  description: Provides support for managing access and audit control lists for synchronization
+    primitives
+  package_url: https://www.nuget.org/System.Threading.AccessControl
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14316/default_0615d1d53c042ae7bd040d1334cdceff0f407ce6.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: System.Threading.Tasks.Extensions
+  description: Provides additional types that simplify the work of writing concurrent
+    and asynchronous code
+  package_url: https://www.nuget.org/System.Threading.Tasks.Extensions
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12998/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: System.Threading.Timer
+  description: Provides the System.Threading.Timer class, which is a mechanism for
+    executing a method at specified intervals
+  package_url: https://www.nuget.org/System.Threading.Timer
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13016/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: System.Xml.XDocument
+  description: Provides the classes for Language-Integrated Query
+  package_url: https://www.nuget.org/System.Xml.XDocument
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12964/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/test/Test.Integration/Test.Integration.csproj
+  detection_source: test/Test.Integration/Test.Integration.csproj
+- name: WebGrease
+  description: Web Grease is a suite of tools for optimizing javascript
+  package_url: https://www.nuget.org/WebGrease
+  version: 1.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13115/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site/packages.config
+- name: log4net
+  description: Log4net is a tool to help the programmer output log statements to a
+    variety of output targets
+  package_url: https://www.nuget.org/log4net
+  version: 2.0.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12851/default_a3ccb59f9bc7225d3e241611dc27d0f4cd9875eb.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: structuremap.web
+  description: ASP.Net specific functionality for use with the StructureMap IoC container
+  package_url: https://www.nuget.org/structuremap.web
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14993/default_07ade81be04e341d8bd0772835ab2d3c452fbc90.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Manager/packages.config
+- name: xunit.abstractions
+  description: Common abstractions used to exchange information between xUnit.net
+    and version-independent runners
+  package_url: https://www.nuget.org/xunit.abstractions
+  version: 2.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13312/default_51dc9af41ee0a21e27551191d6c835184da1c0d8.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: xunit.assert
+  description: Includes the assertion library from xUnit.net
+  package_url: https://www.nuget.org/xunit.assert
+  version: 2.3.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13418/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: xunit.core
+  description: Includes the libraries for writing unit tests with xUnit.net
+  package_url: https://www.nuget.org/xunit.core
+  version: 2.3.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13365/default_bf5ef28b557cbc9d58bff0b01afc8f39b37cfbc6.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: xunit.extensibility.core
+  description: Includes xunit.core.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.core
+  version: 2.3.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13436/default_9b520b7c258654c414831abb72568e430492595c.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: xunit.extensibility.execution
+  description: Includes xunit.execution.*.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.execution
+  version: 2.3.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13498/default_83bd69dd2d30bd3eae917c5ac8376fd500016904.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.3.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+  detection_source: demo/Quicksilver/Sources/EPiServer.Reference.Commerce.Site.Tests/packages.config
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 5.15.4
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 12.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
+- name: webpack-merge
+  description: Variant of merge that's useful for webpack configuration
+  package_url: https://www.npmjs.com/webpack-merge
+  version: 5.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/klarna/blob/master/demo/Foundation/src/Foundation/package-lock.json
+  detection_source: demo/Foundation/src/Foundation/package.json
